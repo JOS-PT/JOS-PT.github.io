@@ -99,13 +99,14 @@ html,body{
 
 .name_plug > h1{
 
-  font-size: 4vi;
+  font-size:calc(20px + 1vw);
+  
   line-height: normal;
 }
 
 .name_plug > h2{
   font-weight: normal;
-  font-size: 30px;
+  font-size:calc(15px + 0.8vw);
 }
 
 
@@ -123,8 +124,11 @@ html,body{
   .topnav a.icon {
     float: right;
     display: block;
+    
   }
+ 
 }
+
 
 
 
