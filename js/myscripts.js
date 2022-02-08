@@ -5,4 +5,11 @@ function myFunction() {
     } else {
       x.className = "topnav";
     }
+
+    var y = document.getElementById("wrapper");
+    if(y.className === "master-content"){
+      y.className += " wrap"
+    }else{
+      y.className = "master-content"
+    }
   } 
