@@ -22,6 +22,8 @@ html,body{
   background-color: #333;
   position: relative;
   display: block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .topnav #myLinks {
@@ -30,10 +32,12 @@ html,body{
 
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
   display: inline-block;
+  font-weight:bold;
+
 }
 
 .topnav a.icon {
@@ -59,6 +63,7 @@ html,body{
 
 #HOME{
   font-weight:bold;
+
  }
 
 .master-content{
@@ -95,21 +100,40 @@ html,body{
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   line-height: 1;
+  width: 100%;
 }
 
 .name_plug > h1{
 
-  font-size:calc(20px + 1vw);
-  
+  font-size:calc(20px + 0.8vw);
+  width: inherit;
   line-height: normal;
+  margin: 0;
 }
 
 .name_plug > h2{
+  width: inherit;
   font-weight: normal;
-  font-size:calc(15px + 0.8vw);
+  font-size:calc(15px + 0.6vw);
+  margin: 0;
 }
 
+.plugs{
+  margin-top: 10px;
+  font-size:calc(30px + 1.4vw);
+  display: block;
+}
 
+.plugs a{
+  display: inline-block;
+  text-decoration:none;
+  color: inherit;
+}
+
+.plugs a:hover{
+  
+  color: #4675db;
+}
 
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
